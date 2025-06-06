@@ -35,39 +35,39 @@ dev-tinder-backend/
 ```
 API Endpoints
 
-Auth
-POST /api/auth/signup – Register a new developer
+Auth   
+POST /api/auth/signup – Register a new developer   
 POST /api/auth/login – Log in
-POST /api/auth/logout – Log out
+POST /api/auth/logout – Log out    
 
-Profile
-GET /api/profile/me – View own profile
-PUT /api/profile/update – Update profile
-PUT /api/profile/password – Change password
+Profile   
+GET /api/profile/me – View own profile     
+PUT /api/profile/update – Update profile   
+PUT /api/profile/password – Change password    
 
 Connections
-POST /api/connection/send/:id – Send connection request
-PUT /api/connection/accept/:id – Accept request
-PUT /api/connection/reject/:id – Reject request
-GET /api/connection/list – View all connections
+POST /api/connection/send/:id – Send connection request    
+PUT /api/connection/accept/:id – Accept request   
+PUT /api/connection/reject/:id – Reject request     
+GET /api/connection/list – View all connections     
 
-Feed
+Feed  
 GET /api/feed – View posts or updates from connections (placeholder for future enhancement)
 
-Prerequisites :
-     Node.js
-     MongoDB (local or MongoDB Atlas)
+Prerequisites :   
+     Node.js    
+     MongoDB (local or MongoDB Atlas)    
      
-Installation
-    git clone https://github.com/yourusername/dev-tinder-backend.git
-    cd dev-tinder-backend
-    npm install
+Installation   
+    git clone https://github.com/yourusername/devTinder.git    
+    cd devTinder  
+    npm install    
 
-eate a .env file in the root with the following:
-  PORT=5000
-  MONGO_URI=your_mongodb_connection_string
-  JWT_SECRET=your_jwt_secret
+eate a .env file in the root with the following:    
+  PORT=5000   
+  MONGO_URI=your_mongodb_connection_string          
+  JWT_SECRET=your_jwt_secret   
 
-run the server
-  npm start dev
+run the server       
+  npm start   
 
